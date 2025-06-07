@@ -1,3 +1,5 @@
+// original api
+// https://api.openweathermap.org/data/2.5/weather?units=metric&q=seohara&appid=0d2e74a4bbdcb5941c4b8441d7463bfb
 const apiKey = "0d2e74a4bbdcb5941c4b8441d7463bfb";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
