@@ -79,7 +79,13 @@ function submitCityName(){
    checkWeather(cityName);
 }
 
-search_btn.addEventListener("click", submitCityName);
+function submitCityNameByEnter(action){
+    if (action.key === "Enter") {
+        submitCityName();
+    }
+}
 
+search_btn.addEventListener("click", submitCityName);
+input_box.addEventListener("keydown", submitCityNameByEnter);
 
 
